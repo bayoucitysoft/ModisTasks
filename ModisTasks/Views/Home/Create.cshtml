@@ -1,0 +1,34 @@
+﻿<div ng-controller="Create as vm">
+    <div class="row">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2>Create Sample</h2>
+                </div>
+                <div class="panel-body">
+                    <div class="col-md-2">
+                        <input type="text" calss="form-control" placeholder="Barcode" 
+                               ng-model="vm.barcodeInput"/>
+                    </div>
+                    <div class="col-md-3">
+                        <select id="statusCatagory" class="form-control"
+                                ng-model="vm.statusInput.selectedStatus"
+                                ng-options="item.Status for item in vm.statuses
+                                 track by item.Status"></select>
+                    </div>
+                    <div class="col-md-3">
+                        <select id="usersCatagor" class="form-control"
+                                ng-model="vm.userInput.selectedUser"
+                                ng-options="item.FullName for item in vm.users
+                                  track by item.FullName"></select>
+                    </div>
+                    <button type="button"
+                            class="btn btn-sm btn btn-primary"
+                            ng-click="vm.submitSample()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>{{vm.Message}}</p>
+</div>
+
