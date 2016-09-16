@@ -43,3 +43,4 @@ c:\users\caleb\documents\visual studio 2015\Projects\ModisTasks\ModisTasks\bin\S
 c:\users\caleb\documents\visual studio 2015\Projects\ModisTasks\ModisTasks\bin\Antlr3.Runtime.pdb
 c:\users\caleb\documents\visual studio 2015\Projects\ModisTasks\ModisTasks\obj\Debug\ModisTasks.dll
 c:\users\caleb\documents\visual studio 2015\Projects\ModisTasks\ModisTasks\obj\Debug\ModisTasks.pdb
+C:\Users\caleb\documents\visual studio 2015\Projects\ModisTasks\ModisTasks\obj\Debug\ModisTasks.csprojResolveAssemblyReference.cache
